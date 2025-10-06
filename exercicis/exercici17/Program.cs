@@ -15,6 +15,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+         Console.Write("Número llegit: ");
+        double numero = double.Parse(Console.ReadLine() ?? "0", CultureInfo.InvariantCulture);
+
+        double partDecimal = numero - Math.Truncate(numero);
+
+        Console.WriteLine($"Nombre meravellós: {partDecimal.ToString("0.##", CultureInfo.InvariantCulture)}");
     }
 }

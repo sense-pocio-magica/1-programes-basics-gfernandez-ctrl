@@ -17,6 +17,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+         Console.Write("Entra la data sense formatar (ex: 25092024): ");
+        string dataSense = Console.ReadLine() ?? "";
+
+        if (dataSense.Length == 8)
+        {
+            string dia = dataSense.Substring(0, 2);
+            string mes = dataSense.Substring(2, 2);
+            string any = dataSense.Substring(4, 4);
+
+            Console.WriteLine($"La data és {dia}/{mes}/{any}");
+        }
+        else
+        {
+            Console.WriteLine("Format incorrecte. Cal escriure 8 dígits (ddmmaaaa).");
+        }
     }
 }

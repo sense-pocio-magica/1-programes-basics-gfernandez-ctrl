@@ -6,6 +6,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Introdueix el nom: ");
+        string nom = Console.ReadLine() ?? "";
+
+        Console.Write("Introdueix el cognom: ");
+        string cognom = Console.ReadLine() ?? "";
+
+        TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
+        string nomComplet = textInfo.ToTitleCase(nom.ToLower()) + " " +
+                            textInfo.ToTitleCase(cognom.ToLower());
+
+        Console.WriteLine($"Nom complet: {nomComplet}");
     }
 }
