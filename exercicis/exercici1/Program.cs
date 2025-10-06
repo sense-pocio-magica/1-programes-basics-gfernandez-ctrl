@@ -21,7 +21,7 @@ class Program
                 Console.Write("Quin es el teu nom?");
                 var nom = Console.ReadLine();
 
-                Console.WriteLine("Quin es el teu cognom?");
+                Console.Write("Quin es el teu cognom?");
                 var cognom = Console.ReadLine();
 
 

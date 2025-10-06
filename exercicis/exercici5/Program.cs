@@ -8,6 +8,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Diguem el teu nom");
+        var nom = ConsoleReadLine();
+
+        Console.WriteLine("Quina es la teva data de naixement?");
+        int dataNaix = int.Parse(Console.ReadLine());
+
+        int DataActual = DateTime.Now.Year;
+        int edatAra = DataActual - dataNaix;
+
+        Console.WriteLine($"Hola {nom}! Ja tens {edatAra} anys");
     }
 }

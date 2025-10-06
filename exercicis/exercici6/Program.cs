@@ -7,6 +7,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int costat = 7;
+        int perimetre = costat * 4;
+
+        Console.WriteLine($"El perimetre {perimetre}.");
     }
 }
