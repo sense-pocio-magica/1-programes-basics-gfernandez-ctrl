@@ -10,7 +10,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        Console.Write("Cuant val el producte?");
+        double euro = 1;
+        int pesseta = euro * 166.386;
+
+
+        Cosole.WriteLine($"{euros} euros són {pessetes} pessetes.");
     }
 }

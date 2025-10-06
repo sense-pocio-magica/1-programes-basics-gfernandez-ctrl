@@ -6,6 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string producte = "pilota";
+        double preu = 23;
+        bool estoc = true;
+
+        Console.WriteLine($"Aqui esta el producte {producte}, aquest es el seu preu {preu}, y en queda estoc {estoc}");
     }
 }

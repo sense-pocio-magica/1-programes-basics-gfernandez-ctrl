@@ -4,10 +4,20 @@
 carrer, número, codi postal i població. Imprimeix el resultat 
 en una sola línia */
 
-class Program
+using System;
+
+namespace exercici1
 {
-    static void Main(string[] args)
+    class ex2
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            string carrer = "Si";
+            int numero = 8;
+            int Codi = 17943;
+            string poble = "Roses";
+
+            Console.WriteLine($"{carrer}, {numero}, {Codi}, {poble}");
+        }
     }
 }

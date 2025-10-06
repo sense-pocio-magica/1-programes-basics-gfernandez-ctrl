@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Coral Planagumà\\.nuget\\packages\\": {}
+    "C:\\Users\\04fer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici1\\exercici1.csproj",
+      "projectUniqueName": "C:\\Users\\04fer\\Documents\\programacio 2\\1-programes-basics-gfernandez-ctrl\\exercicis\\exercici1\\exercici1.csproj",
       "projectName": "exercici1",
-      "projectPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici1\\exercici1.csproj",
-      "packagesPath": "C:\\Users\\Coral Planagumà\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici1\\obj\\",
+      "projectPath": "C:\\Users\\04fer\\Documents\\programacio 2\\1-programes-basics-gfernandez-ctrl\\exercicis\\exercici1\\exercici1.csproj",
+      "packagesPath": "C:\\Users\\04fer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\04fer\\Documents\\programacio 2\\1-programes-basics-gfernandez-ctrl\\exercicis\\exercici1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Coral Planagumà\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\04fer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

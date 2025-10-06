@@ -7,6 +7,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int mates = 7;
+        int ciencies = 5;
+        int lectura = 0;
+
+        int mitjana = (mates + ciencies + lectura) * 3;
+
+        Console.WriteLine($"La mitjana total de les notes: {mitjana}"); 
     }
 }

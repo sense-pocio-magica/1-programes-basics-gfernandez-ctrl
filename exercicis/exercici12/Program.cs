@@ -27,6 +27,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+         Console.Write("Entra el primer número: ");
+        int a = int.Parse(Console.ReadLine() ?? "0");
+
+        Console.Write("Entra el segon número: ");
+        int b = int.Parse(Console.ReadLine() ?? "0");
+
+        Console.WriteLine($"{a} + {b} = {a + b}");
+        Console.WriteLine($"{a} - {b} = {a - b}");
+        Console.WriteLine($"{a} * {b} = {a * b}");
+
+        if (b != 0)
+            Console.WriteLine($"{a} / {b} = {a / b} i en sobra {a % b}");
+        else
+            Console.WriteLine("No es pot dividir per zero.");
     }
 }
